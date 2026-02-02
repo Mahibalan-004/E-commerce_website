@@ -1,0 +1,66 @@
+/* Page heading */
+.stock-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Table container */
+.stock-table {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Table header */
+.stock-table thead th {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Table rows */
+.stock-table tbody td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+/* Product name */
+.stock-table tbody td:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+
+/* Stock status badges */
+.stock-status {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.in-stock {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.out-stock {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .stock-title {
+    font-size: 22px;
+  }
+
+  .stock-table tbody td {
+    font-size: 14px;
+  }
+}

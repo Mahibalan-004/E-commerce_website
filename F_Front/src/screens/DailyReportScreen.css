@@ -1,0 +1,92 @@
+.daily-report h1,
+.daily-report h2 {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* Header */
+.header-card {
+  margin-bottom: 1.5rem;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.date-select {
+  padding: 0 1rem 1rem;
+  max-width: 250px;
+}
+
+/* Stats */
+.stats-row {
+  margin-bottom: 1.5rem;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  position: relative;
+  height: 100%;
+}
+
+.stat-card p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.stat-card h3,
+.stat-card h4 {
+  margin: 0.2rem 0;
+}
+
+.stat-card span {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 2.2rem;
+}
+
+.stat-card.success h3,
+.success {
+  color: #16a34a;
+}
+
+.stat-card.info h3,
+.info {
+  color: #0284c7;
+}
+
+.stat-card.money h4 {
+  font-size: 1.2rem;
+}
+
+/* Table */
+.report-table thead {
+  background: #3b82f6;
+  color: white;
+}
+
+.report-table th,
+.report-table td {
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
